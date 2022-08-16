@@ -50,7 +50,7 @@ public class Main {
         for (int j : arr) {
             sum += j;
         }
-        float average = (float) ((sum * 1.0) / 30);
+        float average = (float) ((sum * 1.0) / arr.length);
         System.out.println("Средняя сумма трат за месяц составила " + average + " рублей.");
 
     }
